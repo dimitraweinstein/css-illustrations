@@ -1,13 +1,9 @@
-import logo from './logo.svg';
+import IllustrationContainer from './container/IllustrationContainer';
 import './App.css';
 
 function App() {
   return (
-    <div className="lamp">
-      <div className="shade"></div>
-      <div className="leg"></div>
-      <div className="foot"></div>
-    </div>
+    <IllustrationContainer />
   );
 }
 
