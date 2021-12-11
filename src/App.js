@@ -1,13 +1,9 @@
-import Lamp from './illustrations/Lamp';
+import IllustrationContainer from './container/IllustrationContainer';
 import './App.css';
 
 function App() {
   return (
-    <>
-      <Lamp />
-      <div className="shelf">
-      </div>
-    </>
+    <IllustrationContainer />
   );
 }
 
